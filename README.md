@@ -1,6 +1,6 @@
 # Plots and analysis extracted from IGenotyper  
 
-The original code is from https://github.com/oscarlr/IGenotyper  
+The original code was authored by Oscar Rodriguez: https://github.com/oscarlr/IGenotyper  
 
 ## Usage  
 
