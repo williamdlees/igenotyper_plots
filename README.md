@@ -9,17 +9,17 @@ usage: plot_sv_gene_cov.py [-h] sample_name input_bam phased_reads phased_snps p
 Create IGenotyper reports and statistics  
 
 positional arguments:  
-  sample_name     Sample name  
-  input_bam       Input bam file (ccs.bam)  
-  phased_reads    Phased reads file (ccs_to_ref_phased_sorted.bam)  
-  phased_snps     SNPs annotated with phase (1/1, 0|1, 1|0) (phased_snps.vcf)  
-  phased_blocks   Phased blocks (phased_blocks.txt)  
-  gene_coords     Gene coordinates (gene_coords.bed)  
-  sv_coords       SV coords (sv_coords.bed)  
-  target_regions  Target regions (target_regions.bed)  
+  sample_name     - Sample name  
+  input_bam       - Input bam file (ccs.bam)  
+  phased_reads    - Phased reads file (ccs_to_ref_phased_sorted.bam)  
+  phased_snps     - SNPs annotated with phase (1/1, 0|1, 1|0) (phased_snps.vcf)  
+  phased_blocks   - Phased blocks (phased_blocks.txt)  
+  gene_coords     - Gene coordinates (gene_coords.bed)  
+  sv_coords       - SV coords (sv_coords.bed)  
+  target_regions  - Target regions (target_regions.bed)  
 
 options:  
-  -h, --help      show this help message and exit  
+  -h, --help      - show this help message and exit  
 
 Various files will be created in the current directory - see below for notes on input and output files.  
 
@@ -40,7 +40,7 @@ stats.json - selected stats (calculated stats are pushed into this file and repo
 
 ### Plots
 
-report.html - compisite report bringing together the plots and statistics  
+report.html - composite report bringing together the plots and statistics  
 ccs_read_lengths.png - histogram of read lengths in input_bam  
 ccs_read_quals.png - histogram of CCS quality scores in input_bam  
 gene_cov.png - read coverage in primary.bam of all genes in gene_coords  
