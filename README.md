@@ -33,7 +33,7 @@ gene_coords - BED file of core coding regions of V(D)J genes.
 sv_coords - BED file of structural variants included in the reference. Presence or absence of these in the sample will be highlighted in the plots.  
 target_regions - BED file of capture-probe target regions. Coverage of these will be highlighted in the plots.  
 
-## Output files
+## Output files (in the example directory)
 
 primary.bam - BAM file of reads that are primary alignments in input_bam.  
 stats.json - selected stats (calculated stats are pushed into this file and report.html via templates)  
