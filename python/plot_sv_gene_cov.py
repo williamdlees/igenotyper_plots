@@ -231,7 +231,7 @@ def make_track_panel():
                     region = [line[1]] + line[3:]
                     fh.write("%s\n" % "\t".join(map(str, region)))
 
-    # Make haplo beds
+    # Make haplo bigwigs
     for i in ["0", "1", "2"]:
         hap_bw = f"hap{i}.bw"
 
@@ -251,7 +251,7 @@ def make_track_panel():
 
     # Run pygenometracks
     if not os.path.isfile('sv_gene_cov.png'):
-        execute("pyGenomeTracks --tracks ../templates/track_panels.ini --region igh:1-1193129 -o sv_gene_cov.png")
+        execute("pyGenomeTracks --tracks ../templates/track_panels.ini --region igh:1-1193129 -o phasing.png")
 
 
 def phasing_stats():
