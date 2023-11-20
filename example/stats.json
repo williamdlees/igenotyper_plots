@@ -1,0 +1,16 @@
+{
+    "mean_coverage": 223.84,
+    "std_coverage": 218.91,
+    "coefficient_of_variation": 0.98,
+    "num_subreads":  180273,
+    "num_ccs": 180273,
+    "num_on_target_ccs_reads": 67700,
+    "frac_on_target": 38.0,
+    "avg_ccs_read_length": 6315.789746662007,
+    "avg_ccs_read_qual": 85.48,
+    "num_igh_bases_covered": 971450,
+    "num_of_phased_snps": 1418,
+    "num_of_igh_unphased_snps": 1507,
+    "num_of_igh_phased_bases": 337835,
+    "num_genes_no_cov": 379
+}
